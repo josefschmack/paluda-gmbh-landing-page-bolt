@@ -35,7 +35,13 @@ export function Navigation() {
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <a href="#top" className="flex items-center gap-2" aria-label="Paluda GmbH">
-          <span className="grid h-8 w-8 place-items-center rounded-md bg-primary text-primary-foreground font-bold">P</span>
+          <span className="grid h-8 w-8 place-items-center rounded-md bg-primary">
+            <img
+              src="/Paluda_GmbH_P_vector_LOGO_2025_12_22_trimmed.svg"
+              alt="Paluda"
+              className="h-5 w-5 brightness-0 invert"
+            />
+          </span>
           <span className="font-semibold tracking-wide">Paluda</span>
           <span className="hidden text-xs text-muted-foreground sm:inline">GmbH</span>
         </a>
